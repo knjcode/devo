@@ -1,0 +1,38 @@
+{
+  "name": "devo",
+  "version": "0.0.0",
+  "private": true,
+  "author": "knjcode <knjcode@gmail.com>",
+  "description": "An experimental bot",
+  "dependencies": {
+    "coffee-script": "^1.12.7",
+    "hubot": "2.19.0",
+    "hubot-diagnostics": "0.0.2",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^0.2.2",
+    "hubot-hiraganize-script": "github:knjcode/hubot-hiraganize-script",
+    "hubot-maps": "0.0.3",
+    "hubot-pugme": "^0.1.1",
+    "hubot-qr-img-decoder": "github:prototype-cafe/hubot-qr-img-decoder",
+    "hubot-redis-brain": "0.0.4",
+    "hubot-rules": "^0.1.2",
+    "hubot-scripts": "2.17.2",
+    "hubot-slack": "^4.4.0",
+    "hubot-slack-ikku": "github:knjcode/hubot-slack-ikku#sumup-ikku-per-user-v4-respect",
+    "hubot-slack-latex-formula": "github:knjcode/hubot-slack-latex-formula",
+    "hubot-slack-soukoban": "github:knjcode/hubot-slack-soukoban#hubot-slack-v4",
+    "hubot-slack-welcome": "github:knjcode/hubot-slack-welcome#inviter_and_num_members",
+    "hubot-string-codec": "github:prototype-cafe/hubot-string-codec",
+    "hubot-strong-qr-decoder": "github:prototype-cafe/hubot-strong-qr-decoder",
+    "hubot-word-vector-script": "github:knjcode/hubot-word-vector-script",
+    "request-promise": "^4.2.2",
+    "validator": "^9.4.0"
+  },
+  "engines": {
+    "node": "9.x.x"
+  },
+  "scripts": {
+    "start": "hubot -a slack"
+  }
+}

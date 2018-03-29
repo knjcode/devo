@@ -1,0 +1,19 @@
+[
+  "hubot-diagnostics",
+  "hubot-help",
+  "hubot-google-images",
+  "hubot-google-translate",
+  "hubot-pugme",
+  "hubot-maps",
+  "hubot-redis-brain",
+  "hubot-rules",
+  "hubot-strong-qr-decoder",
+  "hubot-qr-img-decoder",
+  "hubot-string-codec",
+  "hubot-hiraganize-script",
+  "hubot-word-vector-script",
+  "hubot-slack-ikku",
+  "hubot-slack-soukoban",
+  "hubot-slack-welcome",
+  "hubot-slack-latex-formula"
+]
