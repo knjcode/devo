@@ -29,8 +29,6 @@ hubot:
     - SLACK_INVITATIONS_TEAM_DOMAIN
     - SLACK_INVITER_API_URL
     - SLACK_INVITER_API_TOKEN
-  volumes:
-    - $PWD:/bot
   ports:
     - "8080:8080"
   restart: always
